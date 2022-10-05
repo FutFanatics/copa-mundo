@@ -891,7 +891,7 @@ html {
   scroll-behavior: smooth; }
 
 .topo {
-  background-image: url("/img/1-bem-vindo/banner_home.png");
+  background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/copa-do-mundo/1-bem-vindo/banner_home.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -901,10 +901,7 @@ html {
     .topo {
       background-position: top;
       background-size: contain;
-      background-image: url("/img/1-bem-vindo/banner_mob.png");
-      padding: 40px 15px; } }
-  @media (max-width: 1300px) {
-    .topo {
+      background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/copa-do-mundo/1-bem-vindo/banner_mob.png");
       padding: 40px 15px; } }
   @media (max-width: 767px) {
     .topo .row {
@@ -950,9 +947,6 @@ html {
     @media (max-width: 767px) {
       .topo__down {
         bottom: -20px; } }
-    @media (max-width: 1300px) {
-      .topo__down {
-        bottom: 0; } }
     .topo__down a:hover {
       text-decoration: none; }
     .topo__down a i {

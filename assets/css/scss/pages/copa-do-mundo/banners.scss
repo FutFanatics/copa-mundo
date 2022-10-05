@@ -27,6 +27,7 @@
                 width: 100%;
                 max-height: none;
             }
+            z-index: -1;
         }
         &-title {
             width: 100%;
@@ -36,6 +37,7 @@
             text-decoration: none;
             background-color: #891738;
             color: #FFF;
+            position: relative;
 
             span {
                 font-weight: 500;
@@ -65,13 +67,13 @@
 
             }
             .banner-title {
-                opacity: 0.9;
+                background-color: #FFF;
                 span {
-                    color: #FFF;
+                    color: #891738;
                     opacity: 1;
                 }
                 i {
-                    color: #FFFF;
+                    color: #891738;
                     
                 }
             }
