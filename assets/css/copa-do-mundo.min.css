@@ -1616,6 +1616,9 @@ html {
   display: flex;
   gap: 20px;
 }
+.banners .banner-img {
+  z-index: -1;
+}
 .banners .banner-img img {
   width: 100%;
   max-height: none;
@@ -1628,6 +1631,7 @@ html {
   text-decoration: none;
   background-color: #891738;
   color: #FFF;
+  position: relative;
 }
 .banners .banner-title span {
   font-weight: 500;
@@ -1648,14 +1652,14 @@ html {
   transition: 0.6s ease-in-out;
 }
 .banners .banner:hover .banner-title {
-  opacity: 0.9;
+  background-color: #FFF;
 }
 .banners .banner:hover .banner-title span {
-  color: #FFF;
+  color: #891738;
   opacity: 1;
 }
 .banners .banner:hover .banner-title i {
-  color: white;
+  color: #891738;
 }
 
 @media (max-width: 800px) {
