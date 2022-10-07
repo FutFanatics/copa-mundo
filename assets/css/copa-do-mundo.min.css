@@ -1093,6 +1093,11 @@ html {
     padding: 40px 15px;
   }
 }
+@media (max-width: 1300px) {
+  .topo {
+    padding: 40px 15px;
+  }
+}
 @media (max-width: 767px) {
   .topo .row {
     flex-direction: column-reverse;
@@ -1147,6 +1152,11 @@ html {
 @media (max-width: 767px) {
   .topo__down {
     bottom: -20px;
+  }
+}
+@media (max-width: 1300px) {
+  .topo__down {
+    bottom: 0;
   }
 }
 .topo__down a:hover {
@@ -1929,7 +1939,7 @@ html {
   border: 2px solid #E8E8E8;
 }
 .bola__slick .item__description-text::-webkit-scrollbar-thumb {
-  background-color: #222222;
+  background-color: #919191;
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -2014,6 +2024,10 @@ html {
 .bola__nav .slick-next {
   right: 5px;
 }
+.bola .bola__nav {
+  border-bottom: 1px dashed #505050;
+  padding-bottom: 30px;
+}
 .bola .bola__nav .slick-next, .bola .bola__nav .slick-prev {
   border: none;
   background-color: transparent;
@@ -2033,6 +2047,18 @@ html {
   .bola .bola__nav .slick-prev {
     margin-right: 0px;
   }
+}
+.bola .bola__nav::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 18px;
+  height: 18px;
+  bottom: -10px;
+  z-index: 5;
+  left: 50%;
+  background: url("/img/marcador.png");
+  background-repeat: no-repeat;
 }
 
 .modal .modal-content {
@@ -2402,7 +2428,7 @@ html {
   border: 2px solid #FFF;
 }
 .timeline__slick .item__curiosidades-description::-webkit-scrollbar-thumb {
-  background-color: #222222;
+  background-color: #919191;
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -2416,9 +2442,9 @@ html {
   margin-bottom: 0px;
 }
 .timeline__nav {
-  margin-top: 40px;
+  padding: 40px 0 30px 0;
   display: flex;
-  margin-bottom: 40px;
+  border-bottom: 1px dashed #3b3b3b;
 }
 .timeline__nav .item {
   font-weight: normal;
@@ -2439,6 +2465,18 @@ html {
 }
 .timeline__nav .slick-next {
   right: 5px;
+}
+.timeline__nav::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 18px;
+  height: 18px;
+  bottom: -10px;
+  z-index: 5;
+  left: 50%;
+  background: url("/img/marcador.png");
+  background-repeat: no-repeat;
 }
 .timeline .timeline__nav .slick-next, .timeline .timeline__nav .slick-prev {
   border: none;
@@ -2556,7 +2594,7 @@ html {
   border: 2px solid #FFF;
 }
 .modal .modal-content .modal-body .box_describe::-webkit-scrollbar-thumb {
-  background-color: #222222;
+  background-color: #919191;
   border-radius: 20px;
 }
 .modal .modal-content .modal-footer {
